@@ -1,0 +1,21 @@
+/* Fondo personalizado con la imagen proporcionada */
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  background: url("https://i.imgur.com/PbMHMQA.jpeg") no-repeat center center fixed;
+  background-size: cover;
+  color: white; /* Ajusta el color del texto según el fondo */
+  font-family: Arial, sans-serif; /* Cambia la fuente si lo deseas */
+}
+
+h1 {
+  text-align: center;
+  margin-top: 20%;
+  font-size: 3em;
+}
+
+p {
+  text-align: center;
+  font-size: 1.5em;
+}
