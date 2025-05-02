@@ -1,0 +1,73 @@
+/**
+ * @name Dark Wings
+ * @author Tú
+ * @version 1.0
+ * @description Tema oscuro etéreo inspirado en alas místicas. Imagen de fondo personalizada.
+ */
+
+:root {
+  --darkwings-background: url("https://i.imgur.com/PbMHMQA.jpeg");
+  --darkwings-color-primary: #bb86fc;
+  --darkwings-color-secondary: #cdaef3;
+  --darkwings-bg1: #121212;
+  --darkwings-bg2: #1e1e1e;
+}
+
+/* Fondo global */
+body,
+.theme-dark,
+.appMount-2yBXZl,
+.app-3xd6d0 {
+  background: var(--darkwings-background) no-repeat center center fixed !important;
+  background-size: cover !important;
+  color: var(--darkwings-color-primary) !important;
+}
+
+/* Áreas principales */
+.container__037ed,
+.container__7d20c,
+.scroller__4a84a,
+.sidebarRegionScroller__1fa7e,
+.contentRegion__0bec1 {
+  background-color: rgba(18, 18, 18, 0.85) !important;
+}
+
+/* Texto e íconos */
+.colorStandard-21JIj7,
+.defaultColor-2cKwKo,
+.headerText__99e7c,
+.label-2gNW3x {
+  color: var(--darkwings-color-primary) !important;
+}
+
+/* Links y botones */
+a,
+.lookFilled-yCfaCM.colorBrand-I6CyqQ {
+  color: var(--darkwings-color-secondary) !important;
+}
+a:hover,
+.lookFilled-yCfaCM.colorBrand-I6CyqQ:hover {
+  color: #ffffff !important;
+  background-color: var(--darkwings-color-primary) !important;
+}
+
+/* Barra lateral */
+.sidebar__02e8d,
+.sidebarRegion__36437 {
+  background-color: rgba(18, 18, 18, 0.9) !important;
+}
+
+/* Mensajes */
+.messageContent__21e69 {
+  background-color: rgba(30, 30, 30, 0.8) !important;
+  border-radius: 10px;
+  padding: 5px 10px;
+  color: var(--darkwings-color-secondary) !important;
+}
+
+/* Cambiar iconos de servidor (opcional) */
+/*
+.wrapper__6e9f8[data-list-item-id="guildsnav___home"] .childWrapper__6e9f8 {
+  background: url("https://tu-dominio.com/tu-icono.png") center/cover no-repeat !important;
+}
+*/
