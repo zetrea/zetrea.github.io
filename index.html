@@ -1,85 +1,87 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Dark Wings Theme - BetterDiscord</title>
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Dark+ Theme - Zetrea</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/atom-one-dark.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+  <script>hljs.highlightAll();</script>
   <style>
     body {
-      margin: 0;
       background-color: #121212;
-      font-family: 'Orbitron', sans-serif;
-      color: #ffffff;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      min-height: 100vh;
-      text-align: center;
+      color: #f5f5f5;
+      font-family: 'Courier New', monospace;
+      padding: 40px 20px;
     }
 
-    .header {
-      margin-top: 20px;
-      font-size: 2em;
+    h1 {
       color: #bb86fc;
+      margin-bottom: 0;
     }
 
-    .image-container {
-      margin: 40px 0;
+    .meta {
+      color: #999;
+      margin-bottom: 20px;
     }
 
-    .image-container img {
-      max-width: 90vw;
-      max-height: 60vh;
-      border-radius: 20px;
-      box-shadow: 0 0 25px #bb86fc44;
-    }
-
-    .description {
-      max-width: 600px;
-      margin-bottom: 30px;
-      font-size: 1.1em;
-      color: #cdaef3;
-    }
-
-    .download-button {
-      display: inline-block;
-      padding: 15px 30px;
-      background-color: #bb86fc;
-      color: #121212;
-      font-weight: bold;
-      text-decoration: none;
+    pre {
+      background-color: #1e1e1e;
+      padding: 20px;
       border-radius: 10px;
-      transition: background-color 0.3s;
+      overflow-x: auto;
+      box-shadow: 0 0 20px #bb86fc33;
     }
 
-    .download-button:hover {
-      background-color: #cdaef3;
+    a {
+      color: #cdaef3;
+      text-decoration: none;
     }
 
-    footer {
-      margin-top: 50px;
-      font-size: 0.9em;
-      color: #666;
+    .footer {
+      margin-top: 40px;
+      font-size: 0.8em;
+      color: #777;
     }
   </style>
 </head>
 <body>
-  <h1 class="header">Dark Wings Theme</h1>
+  <h1>Dark+ Theme</h1>
+  <div class="meta">por <strong>DevEvil</strong> – versión 5.1 · Host: <a href="https://zetrea.github.io/" target="_blank">zetrea.github.io</a></div>
 
-  <div class="image-container">
-    <img src="ba2f6a82615554114c74eabcabecce6e.jpg" alt="Dark Wings Theme Preview">
+  <pre><code class="language-css">/**
+ * @name Dark+
+ * @author DevEvil
+ * @version Dark+5.1
+ * @description Highly customized dark and purple theme for Discord
+ * @authorId 468132563714703390
+ * @authorLink https://devevil.com
+ * @source https://github.com/DevEvil99/DarkPlus-Discord-Theme
+ * @website https://devevil.com
+ * @donate https://devevil.com/dnt
+ * @invite jsQ9UP7kCA
+ */
+
+@import url('https://zetrea.github.io/DarkPlus.theme.css');
+
+:root {
+  --darkplus-bg: #212121;
+  --darkplus-bg2: #302f2f;
+  --darkplus-sec: #bb86fc;
+  --darkplus-links: #cdaef3;
+  --darkplus-home-icon: url(https://i.imgur.com/RvlNQ7k.png);
+  --watermark-filter-invert: 0%;
+  --watermark-filter-sepia: 50%;
+  --watermark-filter-saturate: 3000%;
+  --watermark-filter-hue-rotate: 210deg;
+  --watermark-filter-brightness: 70%;
+  --watermark-filter-contrast: 200%;
+}
+</code></pre>
+
+  <div class="footer">
+    © 2025 · <a href="https://zetrea.github.io/" target="_blank">Zetrea</a> · Tema para BetterDiscord
   </div>
-
-  <div class="description">
-    Un elegante tema oscuro con detalles brillantes inspirado en alas etéreas y misteriosas. Compatible con BetterDiscord.
-  </div>
-
-  <a class="download-button" href="DarkWings.theme.css" download>Descargar Tema</a>
-
-  <footer>
-    © 2025 · Creado por Ti
-  </footer>
 </body>
 </html>
+
